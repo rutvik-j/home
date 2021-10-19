@@ -32,13 +32,14 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0">
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{ backgroundColor: "white" }}>
       <div className="container container-fluid">
         <div className="row">
           <div className="col-5 d-none d-lg-block align-self-center">
             {showPic && (
               <img
-                className="border border-secondary rounded-circle"
+                //className="border border-secondary rounded-circle"
+                className="rounded-circle"
                 src={profilePicUrl}
                 alt="profilepicture"
                 width={imgSize}
