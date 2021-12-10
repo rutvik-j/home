@@ -17,7 +17,7 @@ const mainBody = {
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/Rutvikstwt/",
+      url: "https://www.twitter.com/0xRutvik/",
     },
     {
       image: "fa-linkedin",
@@ -25,7 +25,7 @@ const mainBody = {
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/rutvik_dev.desg/",
+      url: "https://www.instagram.com/0xRutvik/",
     },
     // {
     //   image: "fa-kaggle",
@@ -154,14 +154,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Marketing Analyst',// Here Add Company Name
       companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      date: 'June 2021 – Present',
     },
     {
-      role: 'Front-End Developer',
+      role: 'Community Data Analyst',
       companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      date: 'Jan 2021 – Oct 2021',
     },
   ]
 }
